@@ -17,7 +17,7 @@ InsightFlow is an individual Business Analytics capstone prototype. It turns an 
 
 ## Quick start — Windows
 
-1. Install Python 3.11 or newer and ensure the Python Launcher (`py`) is available.
+1. Install Python 3.14 to match the current hosted deployment (the CI matrix also checks supported Python versions 3.11–3.14) and ensure the Python Launcher (`py`) is available.
 2. Download the repository ZIP from GitHub, or clone it with GitHub Desktop.
 3. Extract/open the project folder containing `app.py`.
 4. Double-click `START_INSIGHTFLOW.bat`.
@@ -152,7 +152,7 @@ The GitHub Actions workflow runs a Python/OS matrix, the self-test, pytest, depe
 
 For a beginner, use **GitHub Desktop** to create and publish the repository, then use **Streamlit Community Cloud** to host the Python application. GitHub stores the source and history; GitHub Pages is for static sites and does not run this Streamlit Python server.
 
-Read [`docs/API_CONFIGURATION_GUIDE.md`](docs/API_CONFIGURATION_GUIDE.md) for model selection, reasoning settings, the twelve analytical tools, web research, API-key safety, usage limits and privacy. Follow [`docs/GITHUB_BEGINNER_GUIDE.md`](docs/GITHUB_BEGINNER_GUIDE.md) before publishing. Streamlit's current deployment flow asks for the repository, branch and entrypoint (because this project is in a subfolder, use `InsightFlow_GitHub_Release/app.py`). Community Cloud supports Python 3.12 by default, which is the recommended deployment choice for this release. See the [official Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
+Read [`docs/API_CONFIGURATION_GUIDE.md`](docs/API_CONFIGURATION_GUIDE.md) for model selection, reasoning settings, the twelve analytical tools, web research, API-key safety, usage limits and privacy. Follow [`docs/GITHUB_BEGINNER_GUIDE.md`](docs/GITHUB_BEGINNER_GUIDE.md) before publishing. Streamlit's current deployment flow asks for the repository, branch and entrypoint (because this project is in a subfolder, use `InsightFlow_GitHub_Release/app.py`). The live deployment is configured for Python 3.14. The repository CI matrix checks Python 3.11, 3.12, 3.13 and 3.14; see the Actions badge and run history for actual results. See the [official Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
 
 ## Known limitations and responsible claims
 
@@ -174,7 +174,9 @@ Use the project as a foundation for your own capstone contribution. Before submi
 
 ## Public demo
 
-**Live application:** Not deployed yet. This repository contains the source code. A public Streamlit URL will be added here only after deployment completes and the app is smoke-tested.
+<https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/>
+
+**[Open the live InsightFlow application](https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/)** — hosted on Streamlit Community Cloud. The project owner reports that the app was deployed with Python 3.14.
 
 - **Repository:** https://github.com/krishant0811/InsightFlow-Business-Intelligence
 - **Project source folder:** [InsightFlow_GitHub_Release](https://github.com/krishant0811/InsightFlow-Business-Intelligence/tree/main/InsightFlow_GitHub_Release)
@@ -188,7 +190,7 @@ This project is stored inside the `InsightFlow_GitHub_Release` subfolder. When c
 - Branch: `main`
 - Main file path: `InsightFlow_GitHub_Release/app.py`
 
-After Streamlit reports a successful deployment and the public page loads, replace the “Not deployed yet” line above with the exact URL supplied by Streamlit. Do not use a guessed URL.
+The deployed application is available at [https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/](https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/). If redeploying, use the same repository, branch and entry-point settings and verify the app after the build completes.
 
 **Public API-key safety:** do not add a personal OpenAI API key as a shared secret to an unauthenticated public app. Leave shared LLM access disabled for the public demo, or implement authentication, per-user authorization, quotas and abuse controls first. Local analytical mode can remain available without a key.
 
