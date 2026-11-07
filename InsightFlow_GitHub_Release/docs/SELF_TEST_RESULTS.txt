@@ -1,0 +1,61 @@
+InsightFlow self-test passed: 60 checks
+  PASS  Tesla sample exists
+  PASS  Retail sample exists
+  PASS  Tesla data has five annual records
+  PASS  Tesla data has revenue field
+  PASS  Retail sample loads
+  PASS  CSV ingestion helper
+  PASS  XLSX ingestion helper
+  PASS  Duplicate columns removed
+  PASS  CSV export neutralizes spreadsheet formulas in text cells
+  PASS  Data-derived text is HTML escaped before trusted markup
+  PASS  All-empty row removed
+  PASS  Non-finite numeric values normalize to missing values
+  PASS  Dataset profile counts are consistent
+  PASS  Dataset switch resets conversation context
+  PASS  Same dataset preserves conversation context
+  PASS  IQR outlier screening flags an extreme value
+  PASS  Analyst returns answer: overall performance review
+  PASS  Analyst returns answer: revenue trend
+  PASS  Analyst returns answer: forecast 2026
+  PASS  Analyst returns answer: highest revenue year
+  PASS  Analyst returns answer: average gross profit
+  PASS  Analyst returns answer: specific year
+  PASS  Analyst returns answer: missing values
+  PASS  Analyst returns answer: unsupported workforce
+  PASS  Overall answer covers multiple measures
+  PASS  2026 projection is caveated
+  PASS  Highest revenue year is correctly identified as 2024
+  PASS  2026 projection includes latest-period comparison
+  PASS  Missing value answer reports quality
+  PASS  Dataset limitations question has a dedicated response
+  PASS  Driver question distinguishes trend from causation
+  PASS  Unsupported employee breakdown does not invent workforce
+  PASS  Highest-value question works without a year column
+  PASS  Follow-up year resolved from thread context
+  PASS  Correlation question calculates relationship evidence
+  PASS  Agent exposes a bounded set of strict function tools
+  PASS  Agent dataset inspection returns schema metadata
+  PASS  Agent aggregate tool calculates Tesla revenue
+  PASS  Agent period comparison returns five annual records
+  PASS  Agent data-quality tool reports five missing cells
+  PASS  Agent segment-contribution tool calculates value shares
+  PASS  Agent numeric-profile tool calculates distribution statistics
+  PASS  Agent growth-analysis tool calculates period growth
+  PASS  Agent cross-tabulation tool calculates categorical counts
+  PASS  Agent ratio-analysis tool calculates a margin safely
+  PASS  Chart test has compatible x/y fields
+  PASS  Visual Explorer Line chart builds through production helper
+  PASS  Visual Explorer Area chart builds through production helper
+  PASS  Visual Explorer Bar chart builds through production helper
+  PASS  Visual Explorer Scatter chart builds through production helper
+  PASS  Visual Explorer Histogram chart builds through production helper
+  PASS  Visual Explorer Box chart builds through production helper
+  PASS  Visual Explorer Violin chart builds through production helper
+  PASS  Visual Explorer Pie chart builds through production helper
+  PASS  Visual Explorer Treemap chart builds through production helper
+  PASS  Pie chart refuses negative values instead of presenting misleading shares
+  PASS  Auto-port selector returns a bindable port
+  PASS  Auto-port selector skips an occupied port
+  PASS  Mocked Streamlit default page render
+  PASS  Mocked AI Analyst form submission

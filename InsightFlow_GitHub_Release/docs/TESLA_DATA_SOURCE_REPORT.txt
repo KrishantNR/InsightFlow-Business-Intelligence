@@ -1,0 +1,64 @@
+TESLA, INC. — FIVE-YEAR BUSINESS & FINANCIAL DATA REPORT
+Period: Fiscal years ended December 31, 2021 through December 31, 2025
+Prepared: November 3, 2026
+Currency: USD. Financial statement values are in USD millions unless the column name specifies otherwise.
+
+IMPORTANT SCOPE AND DATA NOTES
+This is a structured annual dataset for business-intelligence practice, not literally every disclosure in Tesla's 10-K filings. It includes selected consolidated financial statement lines, annual operating metrics, energy storage deployments, infrastructure counts, and calculated ratios. It is annual (five observations), not transaction-level or monthly data. Blank values mean not included/verified in this extract, not zero. The 2025 geographic revenue split is blank for that reason.
+The data is intended for the InsightFlow prototype. With only five annual observations, forecasting is for demonstration only and is not statistically robust. Do not use it as investment advice.
+
+KEY OBSERVATIONS
+1. Revenue expanded from USD 53,823 million in 2021 to USD 94,827 million in 2025. The 2025 value was about 76.2% above 2021, but below 2024's USD 97,690 million.
+2. Revenue peaked in this five-year window in 2024. It declined about 2.9% in 2025.
+3. Vehicle deliveries rose from 936,222 in 2021 to 1,636,129 in 2025, but 2025 deliveries were below the 2023 and 2024 levels.
+4. Energy storage deployments grew from 4.0 GWh in 2021 to 46.7 GWh in 2025, making energy generation and storage an increasingly important business line.
+5. Energy generation and storage revenue increased from USD 2,789 million in 2021 to USD 12,771 million in 2025.
+6. Gross profit declined from USD 20,853 million in 2022 to USD 17,094 million in 2025. Gross margin compression is visible in the calculated margin field.
+7. Operating income decreased from USD 13,656 million in 2022 to USD 4,355 million in 2025. R&D spending increased to USD 6,411 million in 2025.
+8. Net income attributable to common stockholders was unusually high in 2023 (USD 14,997 million); Tesla's 2024 annual report explains that 2023 net income included a substantial deferred-tax valuation allowance release. This makes the 2023 net margin less representative of recurring operating performance.
+9. Operating cash flow remained strong at USD 14,747 million in 2025, while capital expenditure was USD 8,527 million. The calculated operating cash flow less capex was USD 6,220 million.
+
+SUGGESTED INSIGHTFLOW QUESTIONS
+- How did total revenue change from 2021 to 2025?
+- Which revenue segment grew fastest?
+- What happened to gross margin and operating margin?
+- Compare vehicle production with deliveries each year.
+- How quickly did energy storage deployments grow?
+- How did R&D spending change relative to revenue?
+- Compare operating cash flow with capital expenditures.
+- Which year had the highest net margin, and why should it be interpreted carefully?
+
+RECOMMENDED DASHBOARDS
+A. Executive overview: revenue, gross profit, operating income, net income, cash flow and deliveries.
+B. Segment mix: automotive, energy generation and storage, and services revenue.
+C. Operations: production, deliveries, delivery/production ratio, storage deployed, charging network.
+D. Profitability: gross margin, operating margin, net margin, R&D intensity.
+E. Cash and investment: operating cash flow, capital expenditure, operating cash flow less capex, cash plus short-term investments.
+
+METHODOLOGY
+- Annual reported financial amounts are transcribed from Tesla's SEC Form 10-K annual reports.
+- Annual vehicle production/delivery and energy storage deployment metrics are taken from Tesla Investor Relations annual operational summaries.
+- Ratios and growth rates in the CSV are calculated from reported values.
+- No fabricated monthly, customer-level, model-level revenue, share-price, or transaction data has been added.
+
+PRIMARY SOURCES
+2025 Form 10-K (SEC):
+https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm
+2024 Form 10-K (SEC):
+https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm
+2023 Form 10-K (SEC):
+https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm
+2022 Form 10-K (SEC):
+https://www.sec.gov/Archives/edgar/data/1318605/000095017023001409/tsla-20221231.htm
+Tesla 2024 annual operating summary (Tesla IR PDF):
+https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf
+Tesla 2025 production, deliveries and deployments (Tesla IR):
+https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments
+
+FIELD GUIDE
+- *_usd_m: USD millions.
+- *_units: annual vehicle counts or infrastructure counts.
+- *_gwh: annual energy storage deployments in gigawatt-hours.
+- *_pct: percentage calculated from reported fields.
+- fiscal_year: fiscal year ending December 31.
+- Missing/blank: data not supplied in this compact extract or not verified in the cited source set.
