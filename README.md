@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/krishant0811/InsightFlow-Business-Intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/krishant0811/InsightFlow-Business-Intelligence/actions/workflows/ci.yml)
 
-> **Live application:** Not deployed yet. The source code is public; the interactive Streamlit website will be linked here after deployment and a public smoke test.
+> **Live application:** [Open InsightFlow](<https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/>). Hosted on Streamlit Community Cloud; the URL was supplied by the project owner.
 
 InsightFlow is an individual Business Analytics capstone prototype that turns CSV and Excel data into an analytical workspace with data profiling, KPI exploration, interactive charts, exploratory forecasting, data-quality checks, recommendations, and a conversational analyst using a controlled set of Python analytics tools.
 
@@ -43,17 +43,13 @@ python InsightFlow_GitHub_Release/launch_insightflow.py
 
 See the [full setup guide](InsightFlow_GitHub_Release/README.md#quick-start--windows).
 
-## Deploy the public website
+## Live website and deployment
 
-This is a Streamlit application, so GitHub stores the code while Streamlit Community Cloud runs the Python app.
+**Live application:** [https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/](https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/)
 
-In [Streamlit Community Cloud](https://share.streamlit.io/), create an app with:
+The source code is maintained in this GitHub repository and the interactive Python application is hosted on [Streamlit Community Cloud](https://share.streamlit.io/). The deployed entry point is `InsightFlow_GitHub_Release/app.py` on branch `main`. The project owner selected Python 3.14 in the Streamlit deployment settings.
 
-- Repository: `krishant0811/InsightFlow-Business-Intelligence`
-- Branch: `main`
-- Main file path: `InsightFlow_GitHub_Release/app.py`
-
-Choose a memorable app subdomain if it is available. Streamlit will provide the real public URL after a successful deploy. **Replace the “Not deployed yet” line at the top with that exact URL only after testing it in a signed-out/private browser window.** Streamlit's current [deployment instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy) explain the process.
+To open the app, use the live link above. To review the source, tests and documentation, browse the project folder in this repository. Streamlit's [deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy) documents the repository/branch/entry-point setup.
 
 ## AI and data security
 
