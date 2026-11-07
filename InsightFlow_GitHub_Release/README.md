@@ -152,7 +152,7 @@ The GitHub Actions workflow runs a Python/OS matrix, the self-test, pytest, depe
 
 For a beginner, use **GitHub Desktop** to create and publish the repository, then use **Streamlit Community Cloud** to host the Python application. GitHub stores the source and history; GitHub Pages is for static sites and does not run this Streamlit Python server.
 
-Read [`docs/API_CONFIGURATION_GUIDE.md`](docs/API_CONFIGURATION_GUIDE.md) for model selection, reasoning settings, the twelve analytical tools, web research, API-key safety, usage limits and privacy. Follow [`docs/GITHUB_BEGINNER_GUIDE.md`](docs/GITHUB_BEGINNER_GUIDE.md) before publishing. Streamlit's current deployment flow asks for the repository, branch and entrypoint (use `app.py` at the repository root); Community Cloud supports Python 3.12 by default, which is the recommended deployment choice for this release. See the [official Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
+Read [`docs/API_CONFIGURATION_GUIDE.md`](docs/API_CONFIGURATION_GUIDE.md) for model selection, reasoning settings, the twelve analytical tools, web research, API-key safety, usage limits and privacy. Follow [`docs/GITHUB_BEGINNER_GUIDE.md`](docs/GITHUB_BEGINNER_GUIDE.md) before publishing. Streamlit's current deployment flow asks for the repository, branch and entrypoint (because this project is in a subfolder, use `InsightFlow_GitHub_Release/app.py`). Community Cloud supports Python 3.12 by default, which is the recommended deployment choice for this release. See the [official Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
 
 ## Known limitations and responsible claims
 
