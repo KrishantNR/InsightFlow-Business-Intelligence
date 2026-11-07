@@ -178,15 +178,15 @@ Use the project as a foundation for your own capstone contribution. Before submi
 
 **[Open the live InsightFlow application](https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/)** — hosted on Streamlit Community Cloud. The project owner reports that the app was deployed with Python 3.14.
 
-- **Repository:** https://github.com/krishant0811/InsightFlow-Business-Intelligence
-- **Project source folder:** [InsightFlow_GitHub_Release](https://github.com/krishant0811/InsightFlow-Business-Intelligence/tree/main/InsightFlow_GitHub_Release)
-- **Application entry point:** [app.py](https://github.com/krishant0811/InsightFlow-Business-Intelligence/blob/main/InsightFlow_GitHub_Release/app.py)
+- **Repository:** https://github.com/KrishantNR/InsightFlow-Business-Intelligence
+- **Project source folder:** [InsightFlow_GitHub_Release](https://github.com/KrishantNR/InsightFlow-Business-Intelligence/tree/main/InsightFlow_GitHub_Release)
+- **Application entry point:** [app.py](https://github.com/KrishantNR/InsightFlow-Business-Intelligence/blob/main/InsightFlow_GitHub_Release/app.py)
 
 ### Deploy on Streamlit Community Cloud
 
 This project is stored inside the `InsightFlow_GitHub_Release` subfolder. When creating the Streamlit app, use:
 
-- Repository: `krishant0811/InsightFlow-Business-Intelligence`
+- Repository: `KrishantNR/InsightFlow-Business-Intelligence`
 - Branch: `main`
 - Main file path: `InsightFlow_GitHub_Release/app.py`
 
