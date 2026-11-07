@@ -1,6 +1,8 @@
 # InsightFlow — Business Intelligence & Decision Support
 
-[![CI](https://github.com/krishant0811/InsightFlow-Business-Intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/krishant0811/InsightFlow-Business-Intelligence/actions/workflows/ci.yml)
+**Developer:** [KrishantNR](https://github.com/KrishantNR) · **Repository:** [InsightFlow-Business-Intelligence](https://github.com/KrishantNR/InsightFlow-Business-Intelligence)
+
+[![CI](https://github.com/KrishantNR/InsightFlow-Business-Intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/KrishantNR/InsightFlow-Business-Intelligence/actions/workflows/ci.yml)
 
 > **Live application:** [Open InsightFlow](<https://insightflow-business-intelligence-gshfmqhusvcelq9nffulmy.streamlit.app/>). Hosted on Streamlit Community Cloud; the URL was supplied by the project owner.
 
