@@ -171,6 +171,27 @@ Read [`docs/API_CONFIGURATION_GUIDE.md`](docs/API_CONFIGURATION_GUIDE.md) for mo
 
 Use the project as a foundation for your own capstone contribution. Before submission, add your own design decisions, evaluation results, screenshots, limitations and reflection to the report. Do not claim a development timeline, experiments, interviews or features you did not personally perform or verify. A strong viva comes from understanding and defending the implementation, not from overstating its history.
 
+
+## Public demo
+
+**Live application:** Not deployed yet. This repository contains the source code. A public Streamlit URL will be added here only after deployment completes and the app is smoke-tested.
+
+- **Repository:** https://github.com/krishant0811/InsightFlow-Business-Intelligence
+- **Project source folder:** [InsightFlow_GitHub_Release](https://github.com/krishant0811/InsightFlow-Business-Intelligence/tree/main/InsightFlow_GitHub_Release)
+- **Application entry point:** [app.py](https://github.com/krishant0811/InsightFlow-Business-Intelligence/blob/main/InsightFlow_GitHub_Release/app.py)
+
+### Deploy on Streamlit Community Cloud
+
+This project is stored inside the `InsightFlow_GitHub_Release` subfolder. When creating the Streamlit app, use:
+
+- Repository: `krishant0811/InsightFlow-Business-Intelligence`
+- Branch: `main`
+- Main file path: `InsightFlow_GitHub_Release/app.py`
+
+After Streamlit reports a successful deployment and the public page loads, replace the “Not deployed yet” line above with the exact URL supplied by Streamlit. Do not use a guessed URL.
+
+**Public API-key safety:** do not add a personal OpenAI API key as a shared secret to an unauthenticated public app. Leave shared LLM access disabled for the public demo, or implement authentication, per-user authorization, quotas and abuse controls first. Local analytical mode can remain available without a key.
+
 ## License
 
 No open-source license has been selected in this repository. Public visibility on GitHub does not automatically grant permission for others to reuse the code. Check your university's project policy and select a license before inviting reuse.
